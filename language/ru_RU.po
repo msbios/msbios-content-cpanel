@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: MSBios Guard CPanel\n"
-"POT-Creation-Date: 2017-11-23 16:37+0200\n"
-"PO-Revision-Date: 2017-11-23 16:37+0200\n"
+"Project-Id-Version: MSBios Content CPanel by Judzhin Miles\n"
+"POT-Creation-Date: 2018-12-22 16:27+0200\n"
+"PO-Revision-Date: 2018-12-22 16:27+0200\n"
 "Last-Translator: \n"
 "Language-Team: MSBios Team <info@msbios.com>\n"
 "Language: ru_RU\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.7\n"
 "X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
@@ -18,69 +18,69 @@ msgstr ""
 "X-Poedit-SearchPath-0: config\n"
 "X-Poedit-SearchPath-1: src\n"
 
-#: config/module.config.php:126
-msgid "Access Control List"
-msgstr "Список контроля доступа"
+#: config/module.config.php:46
+msgid "Content"
+msgstr "Содержимое"
 
-#: config/module.config.php:132
-msgid "Users"
-msgstr "Пользователи"
+#: config/module.config.php:52
+msgid "Text Pages"
+msgstr "Текстовые страницы"
 
-#: config/module.config.php:136
-msgid "Create new user"
-msgstr "Создать нового пользователя"
+#: config/module.config.php:56
+msgid "Create new text page"
+msgstr "Создать новую текстовую страницу"
 
-#: config/module.config.php:140
-msgid "Edit user record"
-msgstr "Изменить запись пользователя"
+#: config/module.config.php:60
+msgid "Edit text page"
+msgstr "Редактировать текстовую страницу"
 
-#: config/module.config.php:147
-msgid "Resources"
-msgstr "Ресурсы"
+#~ msgid "Access Control List"
+#~ msgstr "Список контроля доступа"
 
-#: config/module.config.php:151
-msgid "Create new resource"
-msgstr "Создать новый ресурс"
+#~ msgid "Users"
+#~ msgstr "Пользователи"
 
-#: config/module.config.php:155
-msgid "Edit user resource"
-msgstr "Редактировать пользовательский ресурс"
+#~ msgid "Create new user"
+#~ msgstr "Создать нового пользователя"
 
-#: config/module.config.php:159
-msgid "Resource Permissions"
-msgstr "Разрешения для ресурсов"
+#~ msgid "Edit user record"
+#~ msgstr "Изменить запись пользователя"
 
-#: config/module.config.php:163
-msgid "Create resource permission"
-msgstr "Создать разрешение ресурса"
+#~ msgid "Resources"
+#~ msgstr "Ресурсы"
 
-#: config/module.config.php:167
-msgid "Edit resource permission"
-msgstr "Редагувати дозволи на ресурси"
+#~ msgid "Create new resource"
+#~ msgstr "Создать новый ресурс"
 
-#: config/module.config.php:176
-msgid "Roles"
-msgstr "Роли"
+#~ msgid "Edit user resource"
+#~ msgstr "Редактировать пользовательский ресурс"
 
-#: config/module.config.php:180
-msgid "Create new role"
-msgstr "Создать новую роль"
+#~ msgid "Resource Permissions"
+#~ msgstr "Разрешения для ресурсов"
 
-#: config/module.config.php:184
-msgid "Edit user role"
-msgstr "Изменить роль пользователя"
+#~ msgid "Create resource permission"
+#~ msgstr "Создать разрешение ресурса"
 
-#: config/module.config.php:191
-msgid "Rules"
-msgstr "Правила"
+#~ msgid "Edit resource permission"
+#~ msgstr "Редагувати дозволи на ресурси"
 
-#: config/module.config.php:195
-msgid "Create new rule"
-msgstr "Создать новое правило"
+#~ msgid "Roles"
+#~ msgstr "Роли"
 
-#: config/module.config.php:199
-msgid "Edit rule"
-msgstr "Изменить правило"
+#~ msgid "Create new role"
+#~ msgstr "Создать новую роль"
+
+#~ msgid "Edit user role"
+#~ msgstr "Изменить роль пользователя"
+
+#~ msgid "Rules"
+#~ msgstr "Правила"
+
+#~ msgid "Create new rule"
+#~ msgstr "Создать новое правило"
+
+#~ msgid "Edit rule"
+#~ msgstr "Изменить правило"
 
 #~ msgid "Close"
 #~ msgstr "Закрыть"

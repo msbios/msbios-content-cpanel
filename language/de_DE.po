@@ -1,14 +1,33 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2017-07-12 12:00+0300\n"
-"PO-Revision-Date: 2017-07-12 12:02+0300\n"
+"Project-Id-Version: MSBios Content CPanel\n"
+"POT-Creation-Date: 2018-12-22 16:26+0200\n"
+"PO-Revision-Date: 2018-12-22 16:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: de_DE\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.7.1\n"
-"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: de_DE\n"
+"X-Poedit-KeywordsList: _;translate;addSuccessMessage\n"
+"X-Poedit-SearchPath-0: src\n"
+"X-Poedit-SearchPath-1: config\n"
+
+#: config/module.config.php:46
+msgid "Content"
+msgstr ""
+
+#: config/module.config.php:52
+msgid "Text Pages"
+msgstr ""
+
+#: config/module.config.php:56
+msgid "Create new text page"
+msgstr ""
+
+#: config/module.config.php:60
+msgid "Edit text page"
+msgstr ""
