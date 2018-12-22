@@ -13,7 +13,7 @@ namespace MSBios\Content\CPanel;
 class Module extends \MSBios\Module
 {
     /** @const VERSION */
-    const VERSION = '1.0.0';
+    const VERSION = '1.0.1';
 
     /**
      * @return string
