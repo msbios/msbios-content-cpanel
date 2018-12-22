@@ -78,6 +78,13 @@ return [
         ]
     ],
 
+    'form_elements' => [
+        'aliases' => [
+            Controller\TextPageController::class =>
+                \MSBios\Content\Resource\Form\TextPageForm::class
+        ]
+    ],
+
     \MSBios\Theme\Module::class => [
         'themes' => [
             'limitless' => [

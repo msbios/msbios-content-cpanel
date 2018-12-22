@@ -635,17 +635,20 @@
         },
         {
             "name": "msbios/content",
-            "version": "v1.0.1",
+            "version": "v1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/msbios/msbios-content.git",
-                "reference": "b89282fadcf00717bdfb425f7a898a8dcbfe56a1"
+                "reference": "3b48a86c53387e682f5ef95dc6355ed7ab59788c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/msbios/msbios-content/zipball/b89282fadcf00717bdfb425f7a898a8dcbfe56a1",
-                "reference": "b89282fadcf00717bdfb425f7a898a8dcbfe56a1",
+                "url": "https://api.github.com/repos/msbios/msbios-content/zipball/3b48a86c53387e682f5ef95dc6355ed7ab59788c",
+                "reference": "3b48a86c53387e682f5ef95dc6355ed7ab59788c",
                 "shasum": ""
+            },
+            "require": {
+                "msbios/content-resource": "^1.0"
             },
             "require-dev": {
                 "msbios/application": "^1.0",
@@ -678,7 +681,54 @@
             "keywords": [
                 "php"
             ],
-            "time": "2018-12-18T10:52:15+00:00"
+            "time": "2018-12-22T16:38:11+00:00"
+        },
+        {
+            "name": "msbios/content-resource",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/msbios/msbios-content-resource.git",
+                "reference": "920edccda5f1d1b36f6d032a96db91ccf80134d1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/msbios/msbios-content-resource/zipball/920edccda5f1d1b36f6d032a96db91ccf80134d1",
+                "reference": "920edccda5f1d1b36f6d032a96db91ccf80134d1",
+                "shasum": ""
+            },
+            "require-dev": {
+                "msbios/debug": "^1.0",
+                "msbios/resource": "^1.0",
+                "msbios/test": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "zf": {
+                    "component": "MSBios\\Content\\Resource"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "MSBios\\Content\\Resource\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Judzhin Miles",
+                    "email": "info@msbios.com"
+                }
+            ],
+            "description": "MSBios Content Resource",
+            "homepage": "https://github.com/msbios/msbios-content-resource",
+            "keywords": [
+                "php"
+            ],
+            "time": "2018-12-22T16:16:51+00:00"
         },
         {
             "name": "msbios/cpanel",
